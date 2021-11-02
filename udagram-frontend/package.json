@@ -5,13 +5,13 @@
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
-    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && ng serve",
+    "start": "ng serve",
     "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && ng build",
     "build_local": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "chmod +x ./bin/deploy.sh && ./bin/deploy.sh"
+    "deploy": "chmod +x .\\bin\\deploy.sh && .\\bin\\deploy.sh"
   },
   "private": true,
   "dependencies": {
@@ -28,6 +28,7 @@
     "codelyzer": "^6.0.2",
     "core-js": "^2.5.4",
     "rxjs": "~6.5.4",
+    "tslib": "^2.3.1",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {

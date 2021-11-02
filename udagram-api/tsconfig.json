@@ -63,5 +63,5 @@
   },
     "include": [
         "src/**/*"
-    ]
+, "migrations/20190325-create-feed-item.js", "migrations/20190328-create-user.js"    ]
 }

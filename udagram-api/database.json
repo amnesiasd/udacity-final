@@ -1,7 +1,7 @@
 {
     "dev": {
         "driver": "pg",
-        "host": "postgres-ud.cxpfa9e410bj.us-east-1.rds.amazonaws.com",
+        "host": "postgres-ud.cd2xyh50rxo0.us-west-1.rds.amazonaws.com",
         "database": "postgres",
         "user": "postgres",
         "password": "Postgres123"

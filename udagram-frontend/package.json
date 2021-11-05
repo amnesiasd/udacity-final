@@ -6,6 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && ng serve",
+    "start_local": "ng serve",
     "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && ng build",
     "build_local": "ng build",
     "test": "ng test",

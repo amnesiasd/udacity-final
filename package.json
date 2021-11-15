@@ -2,12 +2,13 @@
     "scripts": {
         "frontend:install": "cd udagram-frontend && npm install",
         "backend:install": "cd udagram-api && npm install",
-        "frontend:build": "cd udagram-frontend && npm run build",
-        "backend:build": "cd udagram-api && npm run build",
-        "frontend:deploy": "cd udagram-frontend && npm run deploy"
+        "frontend:build": "cd udagram-frontend && npm-run-all build test",
+        "backend:build": "cd udagram-api && npm-run-all build test",
+        "frontend:deploy": "cd udagram-frontend && deploy"
     },
     "devDependencies": {},
     "dependencies": {
-        "@types/sequelize": "^4.28.10"
+        "@types/sequelize": "^4.28.10",
+        "npm-run-all": "^4.1.5"
     }
 }

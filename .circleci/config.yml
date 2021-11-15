@@ -14,7 +14,7 @@ jobs:
       - node/install
       - checkout
       - aws-cli/setup
-      - broswser-tools/install-chrome
+      - browser-tools/install-chrome
       # install dependencies in both apps
       - run:
           name: Front-End Install

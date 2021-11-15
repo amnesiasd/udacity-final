@@ -1,65 +1,21 @@
-# Udagram
+# udacity-final
 
-This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
+## Link to Final project
+[http://udagram-final.s3-website-us-west-1.amazonaws.com/](http://udagram-final.s3-website-us-west-1.amazonaws.com/)
 
-## Getting Started
+## CircleCI Success Image
+![udacity-final CircleCI Image](https://user-images.githubusercontent.com/14042720/141790067-9a8cc811-5aba-4f0b-8a1b-9d2026b4da7f.png)
 
-1. Clone this repo locally into the location of your choice.
-1. Move the content of the udagram folder at the root of the repository as this will become the main content of the project.
-1. Open a terminal and navigate to the root of the repo
-1. follow the instructions in the installation step
+## EB Health
+![EB health image](https://user-images.githubusercontent.com/14042720/141790956-9c96e5d2-9504-4f8d-904d-3244f0ec5e14.png)
 
-The project can run but is missing some information to connect to the database and storage service. These will be setup during the course of the project
+## RDS Connectivity 
+![RDS](https://user-images.githubusercontent.com/14042720/141791306-30509ad1-2667-4114-aff5-a4ba6864f7b4.png)
 
-### Dependencies
+## S3 image bucket
+![image files](https://user-images.githubusercontent.com/14042720/141791754-ea5e4aec-1551-4f6b-ba6b-60bd57d62b59.png)
+![access image](https://user-images.githubusercontent.com/14042720/141791833-0bf67432-16d5-4b7d-918c-7dee269cfff1.png)
+![bucket policy](https://user-images.githubusercontent.com/14042720/141791924-ce027b61-3c5f-426e-b240-4bc978e5830e.png)
 
-```
-- Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
-
-- npm 6.14.8 (LTS) or more recent, Yarn can work but was not tested for this project
-
-- AWS CLI v2, v1 can work but was not tested for this project
-
-- A RDS database running Postgres.
-
-- A S3 bucket for hosting uploaded pictures.
-
-```
-
-### Installation
-
-Provision the necessary AWS services needed for running the application:
-
-1. In AWS, provision a publicly available RDS database running Postgres. <Place holder for link to classroom article>
-1. In AWS, provision a s3 bucket for hosting the uploaded files. <Place holder for tlink to classroom article>
-1. Export the ENV variables needed or use a package like [dotnev](https://www.npmjs.com/package/dotenv)/.
-1. From the root of the repo, navigate udagram-api folder `cd starter/udagram-api` to install the node_modules `npm install`. After installation is done start the api in dev mode with `npm run dev`.
-1. Without closing the terminal in step 1, navigate to the udagram-frontend `cd starter/udagram-frontend` to intall the node_modules `npm install`. After installation is done start the api in dev mode with `npm run start`.
-
-## Testing
-
-This project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
-
-1. `cd starter/udagram-frontend`
-1. `npm run test`
-1. `npm run e2e`
-
-There are no Unit test on the back-end
-
-### Unit Tests:
-
-Unit tests are using the Jasmine Framework.
-
-### End to End Tests:
-
-The e2e tests are using Protractor and Jasmine.
-
-## Built With
-
-- [Angular](https://angular.io/) - Single Page Application Framework
-- [Node](https://nodejs.org) - Javascript Runtime
-- [Express](https://expressjs.com/) - Javascript API Framework
-
-## License
-
-[License](LICENSE.txt)
+## Documentation
+![architecture](https://user-images.githubusercontent.com/14042720/141798476-413589e7-0c4f-4346-a305-d723a64c381f.png)

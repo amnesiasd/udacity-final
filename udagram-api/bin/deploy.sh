@@ -1,0 +1,1 @@
+eb deploy udagram-api-f1-dev

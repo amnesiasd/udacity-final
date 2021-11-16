@@ -18,5 +18,3 @@
 ![access image](https://user-images.githubusercontent.com/14042720/141791833-0bf67432-16d5-4b7d-918c-7dee269cfff1.png)
 ![bucket policy](https://user-images.githubusercontent.com/14042720/141791924-ce027b61-3c5f-426e-b240-4bc978e5830e.png)
 
-## Documentation
-![architecture](https://user-images.githubusercontent.com/14042720/141798476-413589e7-0c4f-4346-a305-d723a64c381f.png)

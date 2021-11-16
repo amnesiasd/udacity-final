@@ -3,7 +3,7 @@
 ## Link to Final project
 [http://udagram-final.s3-website-us-west-1.amazonaws.com/](http://udagram-final.s3-website-us-west-1.amazonaws.com/)
 
-## CircleCI Success Image
+## CircleCI Status Badge
 [![<amnesiasd>](https://circleci.com/gh/amnesiasd/udacity-final.svg?style=svg)](#)
 ![udacity-final CircleCI Image](https://user-images.githubusercontent.com/14042720/141790067-9a8cc811-5aba-4f0b-8a1b-9d2026b4da7f.png)
 

@@ -1,4 +1,4 @@
-## AwS Diagram
+## AWS Diagram
 ![architecture](https://user-images.githubusercontent.com/14042720/141798476-413589e7-0c4f-4346-a305-d723a64c381f.png)
 
 ## Pipeline diagram
